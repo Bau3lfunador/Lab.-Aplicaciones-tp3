@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño HTML</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            color: white;
+        }
+
+        .contenedor {
+            display: flex;
+        }
+
+        section {
+            flex: 70%;
+            padding: 15px;
+        }
+
+        aside {
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 15px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Cities</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>London</li>
+            <li>Paris</li>
+            <li>Tokyo</li>
+        </ul>
+    </nav>
+
+    <div class="contenedor">
+
+        <section>
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom.</p>
+            <p>Standing on the River Thames, London has a long history going back to Roman times.</p>
+        </section>
+
+        <aside>
+            <h3>Información extra</h3>
+            <p>Contenido secundario o lateral.</p>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enlaces HTML</title>
+
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Enlaces HTML</h2>
+
+<p>Ejemplo de enlace:</p>
+<a href="https://www.ejemplo.com">Visit our HTML tutorial</a>
+
+<h3>Enlace local</h3>
+<a href="html_images.asp">HTML Images</a>
+
+<h3>Enlace con target</h3>
+<a href="https://www.ejemplo.com" target="_blank">Abrir en nueva pestaña</a>
+
+<h3>Imagen como enlace</h3>
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+</a>
+
+<h3>Título en enlace</h3>
+<a href="https://www.ejemplo.com" title="Ir a sección HTML">
+  Visit our HTML
+</a>
+
+<h3>Marcador (ID)</h3>
+<a href="#C4">Jump to Chapter 4</a>
+
+<h2 id="C4">Chapter 4</h2>
+
+<p>Este es el capítulo 4 al que saltaste.</p>
+
+<h3>Enlace a otra página con marcador</h3>
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+<h3>Ruta externa</h3>
+<a href="https://www.ejemplo.com/html/default.asp">HTML tutorial</a>
+
+<h3>Ruta relativa</h3>
+<a href="/html/default.asp">HTML tutorial</a>
+
+</body>
+</html>

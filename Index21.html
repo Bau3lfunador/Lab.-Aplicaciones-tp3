@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Imágenes HTML</title>
+</head>
+
+<body>
+
+<h2>Imágenes HTML</h2>
+
+<p>Ejemplos de imágenes:</p>
+
+<img src="pic_trulli.jpg" alt="Italian Trulli" style="width:200px;">
+<br>
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:200px;">
+<br>
+<img src="img_chania.jpg" alt="Flowers in Chania" style="width:200px;">
+
+<hr>
+
+<h3>Tamaño de imagen</h3>
+
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+<hr>
+
+<h3>Imagen en carpeta</h3>
+
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+<h3>Imagen desde servidor externo</h3>
+
+<img src="https://www.ejemplo.com/images/imagen.jpg" alt="Imagen externa" style="width:200px;">
+
+<h3>GIF animado</h3>
+
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+
+<hr>
+
+<h3>Imagen como enlace</h3>
+
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+</a>
+
+<hr>
+
+<h3>Imagen flotante</h3>
+
+<p>
+  <img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+  Texto con imagen flotando a la derecha.
+</p>
+
+<p>
+  <img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+  Texto con imagen flotando a la izquierda.
+</p>
+
+<hr>
+
+<h3>Imagen de fondo</h3>
+
+<p style="background-image:url('clouds.jpg'); padding:20px;">
+  Este es un párrafo con imagen de fondo.
+</p>
+
+<hr>
+
+<h3>Elemento picture</h3>
+
+<picture>
+  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:200px;">
+</picture>
+
+</body>
+</html>

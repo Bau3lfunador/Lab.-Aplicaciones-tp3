@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML JavaScript</title>
+</head>
+
+<body>
+
+    <h1>Ejemplo de JavaScript</h1>
+
+    <p id="demo">Texto original</p>
+
+    <button onclick="cambiarTexto()">Click me</button>
+
+    <br><br>
+
+    <img id="imagen" src="perrito1.jpg" width="150" height="150">
+
+    <script>
+        function cambiarTexto() {
+            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            document.getElementById("demo").style.color = "red";
+            document.getElementById("demo").style.fontSize = "25px";
+
+            document.getElementById("imagen").src = "perrito2.jpg";
+        }
+    </script>
+
+    <noscript>
+        Sorry, your browser does not support JavaScript!
+    </noscript>
+
+</body>
+</html>

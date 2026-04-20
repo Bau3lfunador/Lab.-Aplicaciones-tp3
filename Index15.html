@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Iframe HTML</title>
+</head>
+
+<body>
+
+    <h1>Ejemplo de iframe</h1>
+
+    <iframe src="https://www.example.com"
+            style="height:200px;width:300px;border:2px solid red;">
+    </iframe>
+
+    <h2>Iframe sin borde</h2>
+
+    <iframe src="https://www.example.com"
+            style="height:200px;width:300px;border:none;">
+    </iframe>
+
+    <h2>Enlace que se abre dentro del iframe</h2>
+
+    <iframe name="miIframe"
+            src="https://www.example.com"
+            style="height:200px;width:300px;border:1px solid black;">
+    </iframe>
+
+    <p>
+        <a href="https://www.example.com" target="miIframe">
+            Abrir en el iframe
+        </a>
+    </p>
+
+</body>
+</html>
