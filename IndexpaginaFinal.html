@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Historia y Guía de HTML</title>
+
+<style>
+body {
+    background-color: #f4f4f4;
+    font-family: Arial;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    padding: 14px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+
+#titulo {
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+
+<script>
+function cambiarTexto() {
+    document.getElementById("demo").innerHTML = "HTML evoluciona constantemente";
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+<h1>Historia de HTML</h1>
+<p>Desde sus inicios hasta la actualidad</p>
+</header>
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#estructura">Estructura</a>
+<a href="#formatos">Formato</a>
+<a href="#listas">Listas</a>
+<a href="#tablas">Tablas</a>
+<a href="#imagenes">Imágenes</a>
+</nav>
+
+<section id="inicio">
+<h2 id="titulo">¿Qué es HTML?</h2>
+
+<p><b>HTML</b> es el lenguaje base de la web.</p>
+<p><i>Permite estructurar contenido</i> como texto, imágenes y enlaces.</p>
+<p><strong>Es fundamental</strong> para cualquier página web.</p>
+<p><em>Se combina con CSS y JavaScript</em>.</p>
+
+<p id="demo">HTML comenzó en los años 90</p>
+<button onclick="cambiarTexto()">Cambiar texto</button>
+
+</section>
+
+<section id="estructura">
+<h2>Estructura HTML5</h2>
+
+<article>
+<p>HTML5 introdujo etiquetas como:</p>
+<ul>
+<li>&lt;header&gt;</li>
+<li>&lt;nav&gt;</li>
+<li>&lt;section&gt;</li>
+<li>&lt;article&gt;</li>
+<li>&lt;footer&gt;</li>
+</ul>
+</article>
+
+<aside>
+<p>Esto ayuda a organizar mejor las páginas.</p>
+</aside>
+
+</section>
+
+<section id="formatos">
+<h2>Formato de texto</h2>
+
+<p><b>Negrita</b> - <i>Cursiva</i></p>
+<p><mark>Texto resaltado</mark></p>
+<p><small>Texto pequeño</small></p>
+<p><del>Texto eliminado</del></p>
+<p><ins>Texto agregado</ins></p>
+<p>H<sub>2</sub>O y E = mc<sup>2</sup></p>
+
+<pre><code>
+x = 5;
+y = 6;
+z = x + y;
+</code></pre>
+
+</section>
+
+<section id="listas">
+<h2>Listas en HTML</h2>
+
+<h3>Lista desordenada</h3>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+
+<h3>Lista ordenada</h3>
+<ol>
+<li>Aprender HTML</li>
+<li>Aprender CSS</li>
+<li>Aprender JS</li>
+</ol>
+
+</section>
+
+<section id="tablas">
+<h2>Tablas en HTML</h2>
+
+<table style="width:100%">
+<tr>
+<th>Tecnología</th>
+<th>Uso</th>
+</tr>
+
+<tr>
+<td>HTML</td>
+<td>Estructura</td>
+</tr>
+
+<tr>
+<td>CSS</td>
+<td>Estilos</td>
+</tr>
+
+<tr>
+<td>JavaScript</td>
+<td>Interacción</td>
+</tr>
+
+</table>
+
+</section>
+
+<section id="imagenes">
+<h2>Imágenes</h2>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
+alt="HTML5" width="150">
+
+<p>También pueden ser enlaces:</p>
+
+<a href="https://developer.mozilla.org/es/docs/Web/HTML">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="80">
+</a>
+
+</section>
+
+<section>
+<h2>Iframe</h2>
+
+<iframe src="https://www.example.com" width="300" height="200"></iframe>
+
+</section>
+
+<section>
+<h2>Clases e ID</h2>
+
+<h3 class="city">HTML</h3>
+<h3 class="city">CSS</h3>
+<h3 class="city">JavaScript</h3>
+
+</section>
+
+<section>
+<h2>Bloques y en línea</h2>
+
+<div style="background-color:black;color:white;padding:10px;">
+<p>Esto es un elemento de bloque (div)</p>
+</div>
+
+<p>Esto es <span style="color:red;">inline</span> dentro de un párrafo</p>
+
+</section>
+
+<footer>
+<p>Fin de la página - Historia de HTML</p>
+</footer>
+
+</body>
+</html>
