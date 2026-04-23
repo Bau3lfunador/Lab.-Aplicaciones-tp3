@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía Completa HTML</title>
+
+<style>
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav {
+  background-color: #555;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  background-color: white;
+  margin: 10px;
+}
+
+img {
+  width: 150px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Mi Página HTML Completa</h1>
+</header>
+
+<nav>
+  <a href="#links">Enlaces</a>
+  <a href="#imagenes">Imágenes</a>
+  <a href="#listas">Listas</a>
+  <a href="#tablas">Tablas</a>
+</nav>
+
+<section id="links">
+  <h2>Enlaces</h2>
+
+  <p>Enlace normal:</p>
+  <a href="https://www.google.com" target="_blank">Ir a Google</a>
+
+  <p>Imagen como enlace (perrito):</p>
+  <a href="https://www.google.com">
+    <img src="https://placedog.net/300" alt="perro">
+  </a>
+</section>
+
+<section id="imagenes">
+  <h2>Imágenes</h2>
+
+  <img src="https://placedog.net/400" alt="perro">
+  <img src="https://placedog.net/401" alt="perro">
+</section>
+
+<section>
+  <h2>Formato de texto</h2>
+
+  <p><b>Negrita</b></p>
+  <p><i>Cursiva</i></p>
+  <p><mark>Marcado</mark></p>
+  <p><small>Pequeño</small></p>
+  <p><del>Tachado</del></p>
+  <p><ins>Insertado</ins></p>
+  <p>H<sub>2</sub>O</p>
+  <p>X<sup>2</sup></p>
+</section>
+
+<section>
+  <h2>Estilos</h2>
+
+  <p style="color:red;">Texto rojo</p>
+  <p style="font-size:20px;">Texto grande</p>
+  <p style="text-align:center;">Texto centrado</p>
+</section>
+
+<section id="listas">
+  <h2>Listas</h2>
+
+  <h3>Lista desordenada</h3>
+  <ul>
+    <li>Café</li>
+    <li>Té</li>
+    <li>Leche</li>
+  </ul>
+
+  <h3>Lista ordenada</h3>
+  <ol>
+    <li>Primero</li>
+    <li>Segundo</li>
+    <li>Tercero</li>
+  </ol>
+</section>
+
+<section id="tablas">
+  <h2>Tabla</h2>
+
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>País</th>
+    </tr>
+    <tr>
+      <td>Juan</td>
+      <td>Argentina</td>
+    </tr>
+    <tr>
+      <td>Ana</td>
+      <td>España</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>Div y Span</h2>
+
+  <div style="background:black;color:white;padding:10px;">
+    Esto es un DIV
+  </div>
+
+  <p>Esto es un <span style="color:red;">SPAN</span></p>
+</section>
+
+<section>
+  <h2>Código</h2>
+
+  <pre>
+<code>
+int x = 5;
+int y = 6;
+int z = x + y;
+</code>
+  </pre>
+
+  <p>Guardar con <kbd>Ctrl + S</kbd></p>
+  <p>Error: <samp>Error!</samp></p>
+  <p>Fórmula: <var>E</var> = mc<sup>2</sup></p>
+</section>
+
+<section>
+  <h2>Iframe</h2>
+
+  <iframe src="https://example.com" width="300" height="200"></iframe>
+</section>
+
+<section>
+  <h2>JavaScript</h2>
+
+  <button onclick="mostrar()">Click</button>
+  <p id="demo"></p>
+
+  <script>
+    function mostrar() {
+      document.getElementById("demo").innerHTML = "Hola JavaScript";
+    }
+  </script>
+</section>
+
+<footer>
+  <p>Footer de la página</p>
+</footer>
+
+</body>
+</html>
